@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "banana_fruits:block/palmtreeloginside",
+    "up": "banana_fruits:block/palmtreeloginside",
+    "north": "banana_fruits:block/palm_tree_log",
+    "east": "banana_fruits:block/palm_tree_log",
+    "south": "banana_fruits:block/palm_tree_log",
+    "west": "banana_fruits:block/palm_tree_log",
+    "particle": "banana_fruits:block/palmtreeloginside"
+  },
+  "render_type": "solid"
+}

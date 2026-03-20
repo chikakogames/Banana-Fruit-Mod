@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "banana_fruits:blocks/banana_tree_fence",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "banana_fruits:banana_tree_fence"
+        }
+      ]
+    }
+  ]
+}

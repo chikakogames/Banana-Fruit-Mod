@@ -1,0 +1,16 @@
+{
+  "item.banana_fruits.banana": "Banana",
+  "item.banana_fruits.banana_peel": "Banana Peel",
+  "item.banana_fruits.banana_peel.description_0": "Throw it at a friend!",
+  "block.banana_fruits.banana_tree_log": "Banana Tree Log",
+  "block.banana_fruits.banana_tree_wood": "Banana Tree Wood",
+  "block.banana_fruits.banana_tree_planks": "Banana Tree Planks",
+  "block.banana_fruits.banana_tree_leaves": "Banana Tree Leaves",
+  "block.banana_fruits.banana_tree_stairs": "Banana Tree Stairs",
+  "block.banana_fruits.banana_tree_slab": "Banana Tree Slab",
+  "block.banana_fruits.banana_tree_fence": "Banana Tree Fence",
+  "block.banana_fruits.banana_tree_fence_gate": "Banana Tree Fence Gate",
+  "block.banana_fruits.banana_tree_pressure_plate": "Banana Tree Pressure Plate",
+  "block.banana_fruits.banana_tree_button": "Banana Tree Button",
+  "block.banana_fruits.banana_plant_sapling": "Banana Plant Sapling"
+}

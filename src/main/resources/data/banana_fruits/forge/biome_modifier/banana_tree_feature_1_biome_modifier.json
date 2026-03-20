@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "beach",
+  "features": "banana_fruits:banana_tree_feature_1",
+  "step": "surface_structures"
+}

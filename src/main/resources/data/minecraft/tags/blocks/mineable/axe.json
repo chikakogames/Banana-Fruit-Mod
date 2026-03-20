@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "banana_fruits:banana_tree_wood",
+    "banana_fruits:banana_tree_planks",
+    "banana_fruits:banana_tree_log"
+  ]
+}

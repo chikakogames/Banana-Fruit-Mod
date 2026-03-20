@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "banana_fruits:block/banana_tree_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "banana_fruits:block/banana_tree_log"
+    },
+    "axis=z": {
+      "model": "banana_fruits:block/banana_tree_log",
+      "x": 90
+    }
+  }
+}

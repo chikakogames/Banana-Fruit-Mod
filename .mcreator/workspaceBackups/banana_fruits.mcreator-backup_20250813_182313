@@ -1,0 +1,644 @@
+{
+  "mod_elements": [
+    {
+      "name": "Banana",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bananafruits/item/BananaItem.java",
+          "src/main/resources/assets/banana_fruits/models/item/banana.json"
+        ]
+      }
+    },
+    {
+      "name": "BananaPellProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_pell_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bananafruits/entity/BananaPellProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BananaPeel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_peel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/item/banana_peel.json",
+          "src/main/java/net/mcreator/bananafruits/item/BananaPeelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BananaTreeLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_log.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_log.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_log.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeLogBlock.java",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_log.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_wood.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_wood.json",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_wood.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeWoodBlock.java",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_wood.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreePlanksBlock.java",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_planks.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_planks.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_planks.json",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_planks.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_leaves.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeLeavesBlock.java",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_leaves.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_leaves.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_stairs.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_stairs.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_stairs_outer.json",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_stairs.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeStairsBlock.java",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_stairs.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_stairs_inner.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_slab.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_slab.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_slab.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_slab_top.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeSlabBlock.java",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_slab.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_slab_full.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_post.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_fence.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_fence.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_inventory.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeFenceBlock.java",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_fence.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_fence_gate.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_gate.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_gate_wall.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeFenceGateBlock.java",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_gate_wall_open.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_fence_gate.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_fence_gate_open.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_fence_gate.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreePressurePlateBlock.java",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_pressure_plate.json",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_pressure_plate.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_pressure_plate.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_pressure_plate.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_button.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_button_pressed.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_button.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_button.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaTreeButtonBlock.java",
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_button.json",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_button_inventory.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_wood_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_wood_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreePlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_planks_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_planks_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreeStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_stairs_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_stairs_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreeSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_slab_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_slab_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreeFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_fence_recipe.json",
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_fence_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreeFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_fence_gate_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreePressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_pressure_plate_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaTreeButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/recipes/banana_tree_button_recipe.json",
+          "src/main/resources/data/banana_fruits/advancements/recipes/banana_tree_button_recipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "BananaLeavesLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_leaves_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_leaves.json"
+        ]
+      },
+      "path": "~/configs"
+    },
+    {
+      "name": "BananaPalmTreeSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/banana_fruits/models/item/banana_tree_sapling.json",
+          "src/main/resources/data/banana_fruits/loot_tables/blocks/banana_tree_sapling.json",
+          "src/main/java/net/mcreator/bananafruits/block/BananaPalmTreeSaplingBlock.java",
+          "src/main/java/net/mcreator/bananafruits/block/grower/BananaPalmTreeSaplingTreeGrower.java",
+          "src/main/resources/assets/banana_fruits/models/block/banana_tree_sapling.json",
+          "src/main/resources/assets/banana_fruits/blockstates/banana_tree_sapling.json"
+        ]
+      },
+      "path": "~/Wood"
+    },
+    {
+      "name": "BananaTreeLeavesHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_leaves_harvest_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bananafruits/procedures/BananaTreeLeavesHarvestConditionProcedure.java"
+        ]
+      },
+      "path": "~/configs"
+    },
+    {
+      "name": "Bananatreeext",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext1",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext2",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext3",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext4",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext5",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_5",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext6",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_6",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext7",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_7",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext8",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_8",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "Bananatreeext9",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananatreeext_9",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/fuel"
+    },
+    {
+      "name": "BananaTreeFeature1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_tree_feature_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/banana_fruits/forge/biome_modifier/banana_tree_feature_1_biome_modifier.json",
+          "src/main/resources/data/banana_fruits/worldgen/configured_feature/banana_tree_feature_1.json",
+          "src/main/resources/data/banana_fruits/worldgen/placed_feature/banana_tree_feature_1.json"
+        ]
+      },
+      "path": "~/configs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:BananaTreePlanks",
+      "~CUSTOM:BananaTreeWood",
+      "~CUSTOM:BananaTreeLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:BananaTreeLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:BananaTreeStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BananaTreeSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:BananaTreeFence"
+    ],
+    "BLOCKS:mod:banana_tree_logs": [
+      "CUSTOM:BananaTreeLog",
+      "CUSTOM:BananaTreeWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:banana_tree_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:BananaTreePlanks"
+    ],
+    "ITEMS:mod:banana_tree_logs": [
+      "CUSTOM:BananaTreeLog",
+      "CUSTOM:BananaTreeWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:banana_tree_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:BananaTreePlanks"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:BananaTreeLeaves"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:BananaPalmTreeSapling"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.banana_fruits.banana": "Banana",
+      "item.banana_fruits.banana_peel": "Banana Peel",
+      "item.banana_fruits.banana_peel.description_0": "Throw it at a friend!",
+      "block.banana_fruits.banana_tree_log": "Banana Tree Log",
+      "block.banana_fruits.banana_tree_wood": "Banana Tree Wood",
+      "block.banana_fruits.banana_tree_planks": "Banana Tree Planks",
+      "block.banana_fruits.banana_tree_leaves": "Banana Tree Leaves",
+      "block.banana_fruits.banana_tree_stairs": "Banana Tree Stairs",
+      "block.banana_fruits.banana_tree_slab": "Banana Tree Slab",
+      "block.banana_fruits.banana_tree_fence": "Banana Tree Fence",
+      "block.banana_fruits.banana_tree_fence_gate": "Banana Tree Fence Gate",
+      "block.banana_fruits.banana_tree_pressure_plate": "Banana Tree Pressure Plate",
+      "block.banana_fruits.banana_tree_button": "Banana Tree Button",
+      "block.banana_fruits.banana_tree_sapling": "Banana Tree Sapling"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/bananafruits/BananaFruitsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModFuels.java",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModBlocks.java",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModItems.java",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModEntityRenderers.java",
+      "src/main/java/net/mcreator/bananafruits/init/BananaFruitsModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "fuel",
+        "children": []
+      },
+      {
+        "name": "Wood",
+        "children": []
+      },
+      {
+        "name": "configs",
+        "children": []
+      },
+      {
+        "name": "crafts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "banana_fruits",
+    "modName": "Banana fruits",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.bananafruits"
+  },
+  "mcreatorVersion": 202500228610
+}

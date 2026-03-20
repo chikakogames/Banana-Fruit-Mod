@@ -1,0 +1,106 @@
+{
+  "banana_fruits:recipes/banana_tree_pressure_plate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-08-13 09:43:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-08-13 09:44:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-13 09:42:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_button_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-08-13 09:44:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-08-13 09:44:45 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_wood_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2025-08-13 09:44:06 +0200",
+      "minecraft:old_growth_birch_forest": "2025-08-13 09:42:58 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_stairs_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_fence_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-08-13 09:44:32 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_slab_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_fence_gate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 09:43:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-08-13 09:44:45 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

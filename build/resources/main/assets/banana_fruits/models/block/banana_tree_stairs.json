@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "banana_fruits:block/palmplanks",
+    "bottom": "banana_fruits:block/palmplanks",
+    "top": "banana_fruits:block/palmplanks",
+    "side": "banana_fruits:block/palmplanks"
+  },
+  "render_type": "solid"
+}

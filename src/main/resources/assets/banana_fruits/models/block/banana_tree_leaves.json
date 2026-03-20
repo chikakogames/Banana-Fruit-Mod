@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "banana_fruits:block/palmleaves",
+    "particle": "banana_fruits:block/palmleaves"
+  }
+}

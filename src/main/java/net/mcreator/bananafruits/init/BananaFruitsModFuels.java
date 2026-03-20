@@ -1,0 +1,36 @@
+/*
+ *	MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.bananafruits.init;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
+
+import net.minecraft.world.item.ItemStack;
+
+@Mod.EventBusSubscriber
+public class BananaFruitsModFuels {
+	@SubscribeEvent
+	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
+		ItemStack itemstack = event.getItemStack();
+		if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_LOG.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_WOOD.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_PLANKS.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_LEAVES.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_STAIRS.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_FENCE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_FENCE_GATE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_PRESSURE_PLATE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == BananaFruitsModBlocks.BANANA_TREE_BUTTON.get().asItem())
+			event.setBurnTime(300);
+	}
+}

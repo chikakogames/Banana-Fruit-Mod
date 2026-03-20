@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      },
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      },
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      },
+      {
+        "value": "CUSTOM:BananaTreePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BananaTreeStairs"
+    },
+    "name": "banana_tree_stairs_recipe",
+    "namespace": "mod"
+  }
+}

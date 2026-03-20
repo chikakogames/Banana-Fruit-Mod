@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#banana_fruits:banana_tree_logs",
+      "required": false
+    }
+  ]
+}

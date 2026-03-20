@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "banana_fruits:block/banana_tree_slab"
+    },
+    "type=top": {
+      "model": "banana_fruits:block/banana_tree_slab_top"
+    },
+    "type=double": {
+      "model": "banana_fruits:block/banana_tree_slab_full"
+    }
+  }
+}

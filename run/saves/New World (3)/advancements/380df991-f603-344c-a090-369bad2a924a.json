@@ -1,0 +1,79 @@
+{
+  "banana_fruits:recipes/banana_tree_pressure_plate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-08-13 16:52:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-13 16:51:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_button_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_wood_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2025-08-13 16:51:09 +0200",
+      "minecraft:beach": "2025-08-13 16:51:23 +0200",
+      "minecraft:river": "2025-08-13 16:52:03 +0200",
+      "minecraft:forest": "2025-08-13 16:51:26 +0200",
+      "minecraft:ocean": "2025-08-13 16:51:42 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_stairs_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_fence_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_slab_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "banana_fruits:recipes/banana_tree_fence_gate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-08-13 16:52:23 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
